@@ -1,13 +1,53 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Auditory and Visual Rhythm Omission EEG",
+  "description": "This EEG dataset comprises recordings from 18 participants engaged in auditory and visual rhythm perception tasks using an omission paradigm. The study dissociates predictive neural mechanisms from sensory-evoked activity by presenting rhythmic stimuli with occasional omissions in both auditory and visual modalities. Comprehensive preprocessing code, time-frequency analysis, frequency band extraction, and statistical procedures are provided, with cluster analysis performed using EEGLAB.",
+  "methods_description": "EEG recordings were obtained from 18 participants during separate auditory and visual rhythm perception tasks. Stimulus trains in both modalities contained occasional omissions to enable separation of predictive neural activity from sensory-evoked responses. Preprocessing, time-frequency computation, frequency band extraction, and statistical analysis were performed using provided code, with cluster formation conducted via EEGLAB Study function.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Daniel C Comstock": {},
     "Ramesh Balasubramaniam": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "rhythm perception"
+    },
+    {
+      "term": "predictive coding"
+    },
+    {
+      "term": "omission paradigm"
+    },
+    {
+      "term": "auditory processing"
+    },
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "time-frequency analysis"
+    },
+    {
+      "term": "omission"
+    },
+    {
+      "term": "multimodal"
+    },
+    {
+      "term": "neural oscillations"
+    },
+    {
+      "term": "EEGLAB"
+    },
+    {
+      "term": "preprocessing"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "mockDOI",
@@ -23,14 +63,19 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002218",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.82901/nemar.on002218",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "2.1 GB (48 files)"
   ],
   "formats": [
     ".fdt",
@@ -41,38 +86,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".wav"
+    ".wav",
+    ".yml"
   ],
-  "description": "This EEG dataset comprises recordings from 18 participants exposed to auditory and visual rhythmic stimuli with occasional omissions, designed to isolate predictive neural mechanisms from sensory-evoked activity. The study employs an omission paradigm to dissociate predictive processing in rhythm perception across modalities. Preprocessing code, time-frequency analysis, frequency band extraction, and statistical procedures are provided, with cluster analysis performed using EEGLAB.",
-  "methods_description": "EEG recordings were obtained while 18 participants listened to auditory rhythms and viewed visual flashing rhythms in separate conditions. Both stimulus trains contained occasional omissions. Preprocessing, time-frequency computation, frequency band extraction, and statistical analysis were performed using custom code and EEGLAB Study functions for cluster formation.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "rhythm perception"
-    },
-    {
-      "term": "predictive processing"
-    },
-    {
-      "term": "omission paradigm"
-    },
-    {
-      "term": "auditory stimuli"
-    },
-    {
-      "term": "visual stimuli"
-    },
-    {
-      "term": "time-frequency analysis"
-    },
-    {
-      "term": "EEGLAB"
-    },
-    {
-      "term": "multimodal comparison"
-    }
-  ],
-  "source_hash": "2c0421e8c012e621c1c3137b36240345db2eb540b62e94340f4db66772b054c5"
+  "source_hash": "fee0231bb406c2856b70a23abf88041170bc74bba7b2eadb6e1aa914a4b27ae1"
 }
