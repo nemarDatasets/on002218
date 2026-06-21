@@ -24,6 +24,9 @@
       "term": "omission paradigm"
     },
     {
+      "term": "omission"
+    },
+    {
       "term": "auditory processing"
     },
     {
@@ -33,19 +36,10 @@
       "term": "time-frequency analysis"
     },
     {
-      "term": "omission"
-    },
-    {
-      "term": "multimodal"
-    },
-    {
       "term": "neural oscillations"
     },
     {
       "term": "EEGLAB"
-    },
-    {
-      "term": "preprocessing"
     }
   ],
   "related_identifiers": [
