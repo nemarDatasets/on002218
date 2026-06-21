@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002218-blue)](https://doi.org/10.82901/nemar.on002218)
+
 This EEG dataset was recorded as part of a study of the predictive mechanisms of rhythm perception by using an omission paradigm to separate out predictive neural activity from sensory evoked neural activity. The study had 18 participants listen to auditory rhythms and watch visual flashing rhythms separately. The stimulus trains of both kinds of rhythms contained occasional omissions. Code for preprocessing, time/freq computation, frequency band extraction and statistics is provided. Cluster formation was performed using the EEGLAB Study function.
