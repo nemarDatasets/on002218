@@ -1,28 +1,78 @@
 {
   "version": "2.0",
-  "dataset_id": "on002218",
-  "source": "openneuro",
-  "source_id": "ds002218",
+  "pipeline_stage": "validated",
   "title": "Auditory and Visual Rhythm Omission EEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Daniel C Comstock": {},
     "Ramesh Balasubramaniam": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "mockDOI",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002218",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002218",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".jpg",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".wav"
+  ],
+  "description": "This EEG dataset comprises recordings from 18 participants exposed to auditory and visual rhythmic stimuli with occasional omissions, designed to isolate predictive neural mechanisms from sensory-evoked activity. The study employs an omission paradigm to dissociate predictive processing in rhythm perception across modalities. Preprocessing code, time-frequency analysis, frequency band extraction, and statistical procedures are provided, with cluster analysis performed using EEGLAB.",
+  "methods_description": "EEG recordings were obtained while 18 participants listened to auditory rhythms and viewed visual flashing rhythms in separate conditions. Both stimulus trains contained occasional omissions. Preprocessing, time-frequency computation, frequency band extraction, and statistical analysis were performed using custom code and EEGLAB Study functions for cluster formation.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "rhythm perception"
+    },
+    {
+      "term": "predictive processing"
+    },
+    {
+      "term": "omission paradigm"
+    },
+    {
+      "term": "auditory stimuli"
+    },
+    {
+      "term": "visual stimuli"
+    },
+    {
+      "term": "time-frequency analysis"
+    },
+    {
+      "term": "EEGLAB"
+    },
+    {
+      "term": "multimodal comparison"
+    }
+  ],
+  "source_hash": "2c0421e8c012e621c1c3137b36240345db2eb540b62e94340f4db66772b054c5"
 }
