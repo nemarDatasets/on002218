@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "dataset_id": "on002218",
+  "source": "openneuro",
+  "source_id": "ds002218",
+  "title": "Auditory and Visual Rhythm Omission EEG",
+  "authors": {
+    "Daniel C Comstock": {},
+    "Ramesh Balasubramaniam": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "mockDOI",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
