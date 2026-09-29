@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Auditory and Visual Rhythm Omission EEG",
-  "description": "This EEG dataset comprises recordings from 18 participants engaged in auditory and visual rhythm perception tasks using an omission paradigm. The study dissociates predictive neural mechanisms from sensory-evoked activity by presenting rhythmic stimuli with occasional omissions in both auditory and visual modalities. Comprehensive preprocessing code, time-frequency analysis, frequency band extraction, and statistical procedures are provided, with cluster analysis performed using EEGLAB.",
-  "methods_description": "EEG recordings were obtained from 18 participants during separate auditory and visual rhythm perception tasks. Stimulus trains in both modalities contained occasional omissions to enable separation of predictive neural activity from sensory-evoked responses. Preprocessing, time-frequency computation, frequency band extraction, and statistical analysis were performed using provided code, with cluster formation conducted via EEGLAB Study function.",
+  "description": "EEG recordings from 18 participants who separately listened to auditory rhythms and watched visual flashing rhythms. The stimulus trains contained occasional omissions, which allowed predictive neural activity to be separated from sensory-evoked activity. The dataset supports study of the predictive mechanisms of rhythm perception. Code for preprocessing, time-frequency computation, frequency band extraction and statistics is provided.",
+  "methods_description": "Participants were presented with auditory rhythms and visual flashing rhythms in separate sessions. Stimulus trains contained occasional omissions. Data were preprocessed and analyzed with time/frequency computation and frequency band extraction, and clusters were formed with the EEGLAB Study function.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,28 +18,20 @@
       "term": "rhythm perception"
     },
     {
-      "term": "predictive coding"
-    },
-    {
       "term": "omission paradigm"
     },
     {
-      "term": "omission"
+      "term": "prediction"
     },
     {
-      "term": "auditory processing"
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
     },
     {
-      "term": "visual processing"
-    },
-    {
-      "term": "time-frequency analysis"
-    },
-    {
-      "term": "neural oscillations"
-    },
-    {
-      "term": "EEGLAB"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     }
   ],
   "related_identifiers": [
@@ -54,13 +46,8 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002218",
+      "identifier": "https://nemar.org/dataset/on002218",
       "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.82901/nemar.on002218",
-      "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
     }
   ],
@@ -69,7 +56,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.1 GB (48 files)"
+    "1.94 GB (48 files)"
   ],
   "formats": [
     ".fdt",
